@@ -23,23 +23,16 @@
     <servlet-name>VerifyUser</servlet-name>
     <url-pattern>/VerifyUser</url-pattern>
   </servlet-mapping>
-  
   <context-param>
-  <param-name></param-name>
-  <param-value></param-value>
-  
+    <param-name></param-name>
+    <param-value></param-value>
   </context-param>
-  
-   <context-param>
-  <param-name></param-name>
-  <param-value></param-value>
-  
+  <context-param>
+    <param-name></param-name>
+    <param-value></param-value>
   </context-param>
-  
-   <context-param>
-  <param-name></param-name>
-  <param-value></param-value>
-  
+  <context-param>
+    <param-name></param-name>
+    <param-value></param-value>
   </context-param>
-  
 </web-app>

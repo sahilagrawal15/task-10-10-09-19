@@ -56,7 +56,7 @@ public class VerifyUser extends HttpServlet {
 					HttpSession session=request.getSession();
 					
 					//2) store data in session
-					session.setAttribute("user", "userid");
+					session.setAttribute("user", userid);
 					
 					// whether user want to save the password
 					String choice = request.getParameter("save");

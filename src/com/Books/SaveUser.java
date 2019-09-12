@@ -28,6 +28,7 @@ public class SaveUser extends HttpServlet {
 		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/booksdata","root","root");
 		String sql="insert into users values(?,?,?,?,?,?)";
 		ps=con.prepareStatement(sql);
+		
 		}catch(Exception e){
 			e.printStackTrace();
 		}
@@ -41,6 +42,8 @@ public class SaveUser extends HttpServlet {
 	}
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		
 		PrintWriter out=response.getWriter();
 		//reads-request
 		String userid=request.getParameter("userid");

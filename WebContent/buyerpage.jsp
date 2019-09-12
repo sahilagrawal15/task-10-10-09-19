@@ -19,6 +19,9 @@ if(user==null)
 	<hr>
 	<pre>
 		<a href="SubjectPageServlet">Explore-Store</a>
+		<a href="SubjectPageCheckbox.jsp">Explore-Store(2nd way)</a>
+		<a href="ShowBooks.jsp">Show All Books</a>
+		<a href="UpdateProfile.jsp">Update Profile</a>
 		<a href="">Search-Book</a>
 		<a href="DisplayCart">View-Cart</a>
 		<a href="">Trace-Order</a>

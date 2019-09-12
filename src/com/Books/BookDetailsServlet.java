@@ -95,7 +95,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 			out.println("<td>"+price+"</td>");
 			else if(i>5 &&i<10)
 				out.println("<td>"+Integer.parseInt(price)*1.1+"</td>");
-			else
+			else if(i>10 && i<20)
 				out.println("<td>"+Integer.parseInt(price)*1.2+"</td>");
 			out.println("</tr>");
 			out.println("</table>");
